@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px;
+            background-color: #eef2f8;
+        }
+
+        .menu {
+            text-align: center;
+        }
+
+        .box {
+            background-color: #f2f2f2;
+            width: 350px;
+            border: 1px solid #cccc;
+            padding: 20px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <nav>
+            <a href="./index.html">Home |</a>
+            <a href="./Education.html">Education |</a>
+            <a href="./Work.html">Work Experience |</a>
+            <a href="#">Contact Me</a>
+        </nav>
+    </div>
+    <hr>
+    <h1>Contact Me</h1>
+
+
+    <div class="box">
+
+        <p>Enter your info..</p>
+
+        <form action="#">
+            <label for="name">Your name</label><br>
+            <input type="text" id="name" name="name" style="width: 200px;"><br><br>
+            <label for="E-mail">Your E-mail</label><br>
+            <input type="email" id="E-mail" name="E-mail" style="width: 200px;"><br><br>
+            <label for="gender">Gender</label><br>
+            <select id="gender" id="gender" name="gender" style="width: 200px; font-family: 'Montserrat', sans-serif;"><br><br>
+                <option selected disabled>Select...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+
+            <form action="#"><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" rows="10" cols="30"></textarea>
+                <br><br>
+            
+                <input type="submit" value="Submit" style="font-family: 'Montserrat', sans-serif;">
+                <input type="reset" value="Clear" style="font-family: 'Montserrat', sans-serif;">
+            </form>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
